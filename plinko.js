@@ -7,7 +7,7 @@ class Plinko {
        
 
       this.body= Bodies.circle(x,y,20/2,options);
-      this.r=20;
+      this.r=10;
       
       World.add(world,this.body);
     }

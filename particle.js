@@ -16,10 +16,10 @@ class Particle {
         push();
         translate(pos.x,pos.y);
         rotate(angle);
-        nonStroke();
+        
         fill(this.color)
         ellipseMode(RADIUS);
-        ellispe(0,0,this.r,this.r);
+        ellipse(0,0,this.r,this.r);
         pop();
     }
 }
